@@ -2,7 +2,6 @@ import { RequestHandler } from 'express'
 import { User } from '../models/user'
 import { token } from '../controllers/loginController'
 
-
 const SpotifyWebApi = require('spotify-web-api-node')
 
 const spotifyApi = new SpotifyWebApi({

@@ -4,7 +4,6 @@ import { Post } from '../models/post'
 import { User } from '../models/user'
 import { verifyUser } from '../services/auth'
 
-
 export const getAllPosts: RequestHandler = async (req, res, next) => {
   let posts = await Post.findAll()
   res.status(200).json(posts)

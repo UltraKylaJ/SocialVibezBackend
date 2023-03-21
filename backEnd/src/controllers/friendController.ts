@@ -1,7 +1,6 @@
 import { RequestHandler } from 'express'
 import { Friend } from '../models/friend'
 
-
 export const addFriend: RequestHandler = async (req, res, next) => {
   let newFriend: Friend = req.body
   try {

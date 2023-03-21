@@ -12,7 +12,6 @@ import songRoutes from './routes/songRoutes'
 import userRoutes from './routes/userRoutes'
 import friendRoutes from './routes/friendRoutes'
 
-
 const app = express()
 app.use(cors())
 

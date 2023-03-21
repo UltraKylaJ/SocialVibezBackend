@@ -6,7 +6,6 @@ const spotifyApi = new SpotifyWebApi({
   clientId: '69372f48d4b24c099e581c69793c1879',
 })
 
-
 export const createSong: RequestHandler = async (req, res, next) => {
   let newSong: Song = req.body
 
